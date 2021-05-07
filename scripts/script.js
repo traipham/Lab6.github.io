@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
    * the current entry for each journal-entry element.
    */
 
-  let url = "https://cse110lab6.herokuapp.com/entries"  // SET URL
+  let url = "https://cse110lab6.herokuapp.com/entries";  // SET URL
 
   fetch(url)
     .then(response => response.json())
